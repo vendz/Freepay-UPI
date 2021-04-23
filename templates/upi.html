@@ -17,13 +17,13 @@
       <img src="https://image-charts.com/chart?chs=150x150&cht=qr&chl=upi://pay?pa={{upi}}&am={{amount}}&choe=UTF-8" class="rounded mx-auto d-block" alt="upi qr code">
       <a href="upi://pay?pa={{upi}}&am={{amount}}" class="btn btn-primary">Pay Now</a>
       <a href="{{ url_for('index') }}" class="btn btn-primary">Create your UPI link</a><br><br>
-      <p>Link: <a href="http://127.0.0.1:5000/{{upi}}">http://127.0.0.1:5000/{{upi}}/{{amount}}</a><br>
+      <p>Link: <a href="http://pay.vandit.cf/{{upi}}">http://pay.vandit.cf/{{upi}}/{{amount}}</a><br>
     {% else %}
       <h1 class="card-title">Paying to {{upi}}</h1>
       <img src="https://image-charts.com/chart?chs=150x150&cht=qr&chl=upi://pay?pa={{upi}}&choe=UTF-8" class="rounded mx-auto d-block" alt="upi qr code">
       <a href="upi://pay?pa={{upi}}" class="btn btn-primary">Pay Now</a>
       <a href="{{ url_for('index') }}" class="btn btn-primary">Create your UPI link</a><br><br>
-      <p>Link: <a href="http://127.0.0.1:5000/{{upi}}">http://127.0.0.1:5000/{{upi}}</a><br>
+      <p>Link: <a href="http://pay.vandit.cf/{{upi}}">http://pay.vandit.cf/{{upi}}</a><br>
     {% endif %}
     Note: you can share this link to receive payments</p>
   </div>
