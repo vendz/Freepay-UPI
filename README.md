@@ -45,7 +45,7 @@ You can use the above link and donate any amount you wish to test this service :
 <h2><b>Note</b></h2>
 <p style="font-size:20px">
 <b>This service is completely free to use.</b><br>
-Donating doesn't unlock any feature and it's completely optional.<br>It'll help me in covering domain charges<br>(Currently I got it from GitHub Student Pack :stuck_out_tongue_winking_eye:)<br><br>
+Donating doesn't unlock any feature and it's completely optional. It'll motivate me in making projects like this.<br><br>
 Forking this project and <b>changing author name won't make you developer</b>
 </p>
 
